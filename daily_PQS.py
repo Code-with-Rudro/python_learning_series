@@ -1,3 +1,7 @@
+import pyttsx3
+engine = pyttsx3.init()
+engine.say("hey boss how can i help you")
+engine.runAndWait()
 # print a block of lines using 
 # CHAPTER-1 
 # CHAPTER-1 PQS-1 (PRATICE QUESTION)
@@ -27,3 +31,9 @@ Lights the trav'ller in the dark:
 Tho' I know not what you are,
 Twinkle, twinkle, little star. """)
 
+# PQS-2
+# install external module using python.
+
+# we install pyttsx3 for TTS
+
+# instal pyttsx3 using pip
