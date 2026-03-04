@@ -18,3 +18,6 @@ c = True # c is a boolean
 d = None # d is a none value
 
 e = "rudra" # e is a string
+
+#day - 2
+
