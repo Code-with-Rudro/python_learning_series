@@ -39,3 +39,6 @@ Twinkle, twinkle, little star. """)
 # instal pyttsx3 using pip
 
 
+#chapter-2
+# day-2 python learning 
+

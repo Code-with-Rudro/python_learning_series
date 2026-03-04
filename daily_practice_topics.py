@@ -1,3 +1,4 @@
+#chapter-1
 # day-1 python learning seties
 print("hello world")
 print("hello")
@@ -19,5 +20,11 @@ d = None # d is a none value
 
 e = "rudra" # e is a string
 
+#chapter-2
 #day - 2
 
+print(type(a))
+
+#input function
+name = input("enter your name")
+print (f"hello : {name}")
