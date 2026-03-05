@@ -59,3 +59,10 @@ print(str[0:4:1])
 #length
 print(len(str))
 
+# ESCAPE sequences in python : 
+# \n : new line
+# \t : tab space
+#\ : escape character
+#\': single quote
+#\\ : backslash
+print("heloo every one \n my self rudra \t \"i\" am learning python \n\t by code with harry")
