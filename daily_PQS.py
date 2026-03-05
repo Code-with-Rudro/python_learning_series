@@ -70,3 +70,7 @@ avg1= int(input("enter your number 1 :"))
 avg2= int(input("enter your number 2 : "))
 
 print("the average is :", (avg1 + avg2)/2)
+
+#PQS - 6 :FIND THE SQUARE OF THE INPUT NUMBER ?
+
+print("the square of avg1 : ", avg1*avg1)
