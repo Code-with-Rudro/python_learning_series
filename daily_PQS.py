@@ -151,3 +151,6 @@ print(f"sorted student mark : {student}")
 #PQS -4
 # SUM of tudent mark ?
 print(f"sum of student marks : {sum(student)}")
+#PQS-5
+#count the 10 in student mark ?
+print(f"count the 10 in student list: {student.count(10)}")
