@@ -141,3 +141,13 @@ student.append(st)
 print(student)
 student.sort()
 print(f"sorted student mark : {student}")
+
+#PQS-3
+# check the tuple is iommutable or not 
+# tuple =(1,2,3,4,)
+# tuple.append(5) # it will give error because tuple is immutable
+# print(tuple)
+
+#PQS -4
+# SUM of tudent mark ?
+print(f"sum of student marks : {sum(student)}")
