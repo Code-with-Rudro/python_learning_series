@@ -1,6 +1,6 @@
 import pyttsx3
 engine = pyttsx3.init()
-engine.say(input("enter your name"))
+engine.say(("enter your name"))
 engine.runAndWait()
 # print a block of lines using 
 # CHAPTER-1 
@@ -53,16 +53,16 @@ print(num_a+num_b)
 
 print(num_a%num_b)
 
-# PQS-3 : check the input type ?
+# PQS-3 : check the  type ?
 
-names =input("enter your nsme : ")
+names =("enter your nsme : ")
 print(f"name is: {names}")
 print(type(names))
 
 
 # PQS-4 Check the conditation is true or false (a>b)?
-A_n= input("enter your 1st number:")
-secnd= input("enter your 2nd number :")
+A_n= ("enter your 1st number:")
+secnd= ("enter your 2nd number :")
 print(A_n>secnd)
 
 #PQS-5 find the average of a,b?
@@ -71,14 +71,14 @@ avg2= int(input("enter your number 2 : "))
 
 print("the average is :", (avg1 + avg2)/2)
 
-#PQS - 6 :FIND THE SQUARE OF THE INPUT NUMBER ?
+#PQS - 6 :FIND THE SQUARE OF THE  NUMBER ?
 
 print("the square of avg1 : ", avg1*avg1)
 
 # chapter-3
 #PQS 1 : 
-#write a code to great the input user ?
-user = input("say your name buddy:")
+#write a code to great the  user ?
+user = ("say your name buddy:")
 print(f"hey {user}, how are you")
 
 #PQS 2 :
@@ -100,3 +100,44 @@ print(remove)
 
 format = "hi saksm,\n \ti hope your doing well,\n \ti am \'rudra\', i am from \"shreeya\" team, i have some doubt do you help me to feaguer it out.\n \t\t thank you, \n \t\t\tyours faithfully,\n \t\t\trudra prasad. "
 print(format)
+
+#chapter-4
+#PQS-1
+#store 7 frouts ina list given by the user?
+fruit = []
+a = input("enter your 1st frute name :")
+fruit.append(a)
+a = input("enter your 2st frute name :")
+fruit.append(a)
+a = input("enter your 3st frute name :")
+fruit.append(a)
+a = input("enter your 4st frute name :")
+fruit.append(a)
+a = input("enter your 5st frute name :")
+fruit.append(a)
+a = input("enter your 6st frute name :")
+fruit.append(a)
+a = input("enter your 7st frute name :")
+fruit.append(a)
+print(fruit)
+
+#PQS-2
+#sorted the 6 student mark input given by the user ?
+
+student = []
+st = int(input("enter the 1st student mark :"))
+student.append(st)
+st = int(input("enter the 2st student mark :"))
+student.append(st)
+st = int(input("enter the 3st student mark :"))
+student.append(st)
+st = int(input("enter the 4st student mark :"))
+student.append(st)
+st = int(input("enter the 5st student mark :"))
+student.append(st)
+st = int(input("enter the 6st student mark :"))
+student.append(st)
+
+print(student)
+student.sort()
+print(f"sorted student mark : {student}")
