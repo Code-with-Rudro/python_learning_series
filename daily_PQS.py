@@ -74,3 +74,29 @@ print("the average is :", (avg1 + avg2)/2)
 #PQS - 6 :FIND THE SQUARE OF THE INPUT NUMBER ?
 
 print("the square of avg1 : ", avg1*avg1)
+
+# chapter-3
+#PQS 1 : 
+#write a code to great the input user ?
+user = input("say your name buddy:")
+print(f"hey {user}, how are you")
+
+#PQS 2 :
+#Replace the string content ?
+
+names = " heloo everyone how are you"
+rec = names.replace("hello", "hey")
+print(names)
+print(rec)
+
+#PQS 3
+# delete the how in names ?
+remove = names.replace("how", "")
+
+print(remove)
+
+#pqs 4
+# format a string using escape sequence ?
+
+format = "hi saksm,\n \ti hope your doing well,\n \ti am \'rudra\', i am from \"shreeya\" team, i have some doubt do you help me to feaguer it out.\n \t\t thank you, \n \t\t\tyours faithfully,\n \t\t\trudra prasad. "
+print(format)
