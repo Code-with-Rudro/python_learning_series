@@ -93,3 +93,40 @@ list3 = ("pramod", "gorav", 542, False)
 
 print(list3)
 
+#chapter -5 
+# day-5 python learning series  
+# Dictionary :
+# dictionary is a container it will store data in key value pair, dictionary are mutable(changeable),
+#ex -
+mark = {
+    "kiran" : 10,
+    "rudra" : 20,
+    "pramod" : 22
+}
+print(mark)
+
+# properties of dictionary :
+# 1. it is unordered,
+# 2. it is mutable,
+# 3. it is indexed,
+# 4. cannoct containe duplicate values.
+
+#empty dictionary :
+empty_dict = {}
+
+# dictionary methods :
+# 1.items()
+mark.items()
+
+#keys()
+mark.keys()
+
+#values()
+mark.values()
+
+#update()
+mark.update({"kiran": "siva"})
+
+print(mark.get("kiran")) # print none
+print(mark["pramod"]) # it print error
+print(mark["kiran"])
