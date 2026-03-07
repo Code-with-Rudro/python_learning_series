@@ -154,3 +154,38 @@ print(f"sum of student marks : {sum(student)}")
 #PQS-5
 #count the 10 in student mark ?
 print(f"count the 10 in student list: {student.count(10)}")
+
+
+#chapter - 5
+#PQS-1
+# write a program to create a dictionary of hindi words with values as their english translation, provide user with an option to look it up!
+lang ={
+    "english" : "hello evryone",
+    "odiya" : "bholo aocho ki",
+    "telugu" : "ela unnaru guru",
+    "hindi" : "kese ho"
+}
+
+voice = input("enter your language : ")
+print(lang[voice])
+
+#PQS-2
+# write a program by taking 5 input from the user and print unipue values ?
+
+user_name = set()
+ads = int(input("enter your 1st value :"))
+user_name.add(ads)
+
+ads = int(input("enter your 2st value :"))
+user_name.add(ads)
+
+ads = int(input("enter your 3st value :"))
+user_name.add(ads)
+ 
+ads = int(input("enter your 4st value :"))
+user_name.add(ads)
+
+ads = int(input("enter your 5st value :"))
+user_name.add(ads)
+
+print(user_name)
