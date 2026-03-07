@@ -200,3 +200,25 @@ colour = input("enter your favorite colour")
 
 fav_item.update({name : colour})
 print(fav_item)
+
+#PQS-4
+#write a program to find gratest of four numbers input by the user?
+
+uv1 = int(input("enter your 1st mark :"))
+
+
+uv2 = int(input("enter your 2st mark :"))
+
+
+uv3 = int(input("enter your 3st mark :"))
+
+uv4 = int(input("enter your 4st mark :"))
+
+if(uv1>uv2 & uv1>uv3 & uv1>uv4):
+    print("user_values1 is greatest :", uv1)
+elif(uv2>uv1 & uv2>uv3 & uv2>uv4):
+    print("user_values2 is greatest :", uv2)
+elif(uv3>uv1 & uv3>uv2 & uv3>uv4):
+    print("user_values3 is greatest :", uv3)
+else:
+    print("user_values4 is greatest :", uv4)
