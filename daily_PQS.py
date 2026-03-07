@@ -189,3 +189,14 @@ ads = int(input("enter your 5st value :"))
 user_name.add(ads)
 
 print(user_name)
+
+
+#PQS-3
+#write a empty dictionary and alows friends to add their favorite colour as ther values,  name as their key, and print the dictionary?
+fav_item = {}
+
+name = input("enter your name :")
+colour = input("enter your favorite colour")
+
+fav_item.update({name : colour})
+print(fav_item)
