@@ -172,7 +172,126 @@ python-learning-series/
 │
 └── README.md
 ```
+# 🐍 Python Learning Journey – Day 11 to Day 12
 
+# 👨‍💻 About This Update
+
+This update continues my **Python Learning Series** after completing **Day 7–10 fundamentals**.  
+During **Day 11–12**, I focused on understanding **loops, functions, and recursion**, which are essential for building logic in Python programs.
+
+These topics helped strengthen my **problem-solving and algorithmic thinking skills**.
+
+---
+
+# 📚 Topics Covered
+
+## 🔹 Loops in Python
+
+Loops are used to execute a block of code repeatedly.
+
+Types of loops learned:
+
+- **for loop**
+- **while loop**
+
+Key concepts practiced:
+- Iterating over sequences
+- Loop-based problem solving
+- Controlling program flow
+
+---
+
+## 🔹 Loop Control Statements
+
+Control statements help modify loop behavior.
+
+Concepts covered:
+
+- **break** → Stops the loop immediately  
+- **continue** → Skips the current iteration  
+- **pass** → Placeholder statement that does nothing
+
+These are useful when handling specific conditions inside loops.
+
+---
+
+# 🔹 Practice Problems Using Loops
+
+Several practice problems were implemented to strengthen loop logic:
+
+- Printing multiplication tables
+- Iterating through lists
+- Checking prime numbers
+- Calculating factorial
+- Finding the sum of natural numbers
+- Printing different star patterns
+- Printing multiplication tables in reverse order
+
+These exercises helped in improving **loop-based problem solving**.
+
+---
+
+# 🔹 Functions in Python
+
+Functions are reusable blocks of code that perform specific tasks.
+
+Concepts learned:
+
+- Defining functions
+- Calling functions
+- Functions with arguments
+- Default parameter values
+- Returning values from functions
+
+Functions help make programs more **modular, reusable, and organized**.
+
+---
+
+# 🔹 Practice Problems Using Functions
+
+To strengthen function concepts, the following problems were implemented:
+
+- Finding the **greatest of three numbers**
+- Converting **Celsius to Fahrenheit**
+- Preventing `print()` from adding a new line
+- Printing multiplication tables
+- Removing a word from a list and stripping spaces
+- Converting **inches to centimeters**
+- Printing pattern lines using functions
+
+These exercises improved understanding of **function design and parameter handling**.
+
+---
+
+# 🔹 Recursion in Python
+
+Recursion is a programming technique where a function calls itself to solve a problem.
+
+Concepts covered:
+
+- Recursive function definition
+- Base condition
+- Recursive workflow
+
+Example concept practiced:
+
+Factorial calculation using recursion:
+
+`n * factorial(n-1)`
+
+---
+
+# 🔹 Recursion Practice Problems
+
+Recursive programming was applied to solve problems such as:
+
+- Calculating the **sum of first n natural numbers**
+- Printing patterns using recursive logic
+- Understanding recursive function workflow
+
+These exercises helped in understanding **how recursion simplifies complex problems**.
+
+---
 ---
 
 # 🚀 Future Learning Plan
