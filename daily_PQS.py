@@ -222,3 +222,11 @@ elif(uv3>uv1 & uv3>uv2 & uv3>uv4):
     print("user_values3 is greatest :", uv3)
 else:
     print("user_values4 is greatest :", uv4)
+
+#PQS-5
+#write program to print the multiplication table of a given number input by the user?
+
+number_multi_table = int(input("enter your requerd number multiplication table number : "))
+
+for i in range(1,11):
+    print(f"{number_multi_table} x {i} = {number_multi_table*i}")
