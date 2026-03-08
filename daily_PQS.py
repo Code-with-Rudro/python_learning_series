@@ -230,3 +230,19 @@ number_multi_table = int(input("enter your requerd number multiplication table n
 
 for i in range(1,11):
     print(f"{number_multi_table} x {i} = {number_multi_table*i}")
+
+#PQS-6
+# write a program to great the user start with "s"letter ?
+name_list = ["harry","seera", "suraj"]
+
+for i in name_list:
+    if(i.startswith("s")):
+        print(i)
+
+#PQS-7
+ #write program  USEING while to print the multiplication table of a given number input by the user?
+number_m = int(input())
+idx = 0
+while(idx, 11):
+    print(f"{number_multi_table} x {i} = {number_multi_table*i}")
+    i+=1
