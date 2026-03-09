@@ -261,11 +261,24 @@
 #PQS-9
 # write a program to find factorial of n useing for loop?
 
-fact = int(input())
+# fact = int(input())
 
-product = 0
-for i in range(1,fact+1):
-    product += i
-print(f"factorial of {fact} is: {product}")
+# product = 0
+# for i in range(1,fact+1):
+#     product += i
+# print(f"factorial of {fact} is: {product}")
 
+# PQS-10
+"""
+write a program to print the pattern given below :
+    *
+   ***
+  *****
+ *******
+"""
+n = int(input())
 
+for i in range(1,n+1):
+    print(" "*(n-i), end="")
+    print("*"*(2*i-1), end="")
+    print("")
