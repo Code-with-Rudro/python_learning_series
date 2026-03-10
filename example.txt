@@ -1,1 +1,2 @@
-this is my fisrt file handling program in python
+this is my fisrt file handling program in python,
+hello world
