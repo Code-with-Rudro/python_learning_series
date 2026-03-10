@@ -201,6 +201,7 @@ colour = input("enter your favorite colour")
 fav_item.update({name : colour})
 print(fav_item)
 
+#chapter-6
 #PQS-4
 #write a program to find gratest of four numbers input by the user?
 
@@ -222,7 +223,7 @@ elif(uv3>uv1 & uv3>uv2 & uv3>uv4):
     print("user_values3 is greatest :", uv3)
 else:
     print("user_values4 is greatest :", uv4)
-
+#chapter-7
 #PQS-5
 #write program to print the multiplication table of a given number input by the user?
 
@@ -298,3 +299,5 @@ for i in range(1,n+1):
     print("*",end ="")
   print("")
 
+
+#chapter-8
