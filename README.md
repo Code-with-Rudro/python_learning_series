@@ -1,4 +1,4 @@
-# 🐍 Python Learning Journey – Day 7 to Day 10
+# 🐍 Python Learning Journey
 
 ![Python](https://img.shields.io/badge/Python-Learning-blue?style=for-the-badge&logo=python)
 ![Progress](https://img.shields.io/badge/Progress-Day%207--10-success?style=for-the-badge)
