@@ -1,4 +1,4 @@
-# 🐍 Python Learning Journey – Day 7 to Day 10
+# 🐍 Python Learning Journey
 
 ![Python](https://img.shields.io/badge/Python-Learning-blue?style=for-the-badge&logo=python)
 ![Progress](https://img.shields.io/badge/Progress-Day%207--10-success?style=for-the-badge)
@@ -292,6 +292,90 @@ Recursive programming was applied to solve problems such as:
 These exercises helped in understanding **how recursion simplifies complex problems**.
 
 ---
+# 👨‍💻 About This Update
+
+This update continues my **Python Learning Series**.  
+On **Day 13**, I focused on understanding **File Input/Output (File I/O)** and applied the concepts by building a **Rock Paper Scissors game in Python**.
+
+The project demonstrates how file handling can be used to **store and update game scores**.
+
+---
+
+# 📚 Topics Covered
+
+## 🔹 File Input / Output (File I/O)
+
+File handling allows Python programs to **read from and write data to files**.
+
+This is useful for:
+- Saving program data
+- Reading stored information
+- Updating files dynamically
+- Storing game results or logs
+
+---
+
+## 🔹 File I/O Workflow
+
+The basic workflow of file handling in Python includes:
+
+1. Opening a file  
+2. Performing operations (read/write/update)  
+3. Closing the file  
+
+Proper file handling helps in **managing data efficiently and preventing data loss**.
+
+---
+
+## 🔹 File Opening Modes
+
+Different file modes were explored during this learning phase:
+
+| Mode | Description |
+|-----|-------------|
+| `r` | Read mode |
+| `w` | Write mode |
+| `a` | Append mode |
+| `r+` | Read and write |
+| `w+` | Write and read |
+| `a+` | Append and read |
+
+Understanding these modes is important when working with persistent data.
+
+---
+
+## 🔹 Practical Implementation – Rock Paper Scissors Game
+
+To apply file handling concepts, I created a **Rock Paper Scissors game using Python**.
+
+Key features of the game:
+
+- Uses **random number generation** for computer moves
+- Accepts **user input**
+- Compares player and computer choices
+- Calculates the game result
+- Stores and updates the **highest score in a text file**
+- Demonstrates real-world usage of **file reading and writing**
+
+This small project helped me understand how Python programs can **persist data using files**.
+
+---
+
+# 🧠 Concepts Practiced
+
+During this learning phase, I practiced:
+
+- Creating and opening files
+- Reading data from text files
+- Writing and updating file contents
+- Using random values in programs
+- Storing and updating game scores
+- Combining logic with file storage
+
+These exercises improved my understanding of **state management and persistent data in Python programs**.
+
+---
+
 ---
 
 # 🚀 Future Learning Plan
