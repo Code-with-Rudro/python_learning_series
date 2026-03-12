@@ -31,4 +31,88 @@ for i in range(1,11):
     if i == 5:
         pass
     print(i)
-    
+
+
+
+
+
+
+
+
+ #chapter-7
+#PQS-5
+#write program to print the multiplication table of a given number input by the user?
+
+number_multi_table = int(input("enter your requerd number multiplication table number : "))
+
+for i in range(1,11):
+    print(f"{number_multi_table} x {i} = {number_multi_table*i}")
+
+#PQS-6
+# write a program to great the user start with "s"letter ?
+name_list = ["harry","seera", "suraj"]
+
+for i in name_list:
+    if(i.startswith("s")):
+        print(f"hello, {i}")
+
+#PQS-7
+ #write program  USEING while to print the multiplication table of a given number input by the user?
+number_m = int(input("enter youur number : "))
+idx = 0
+while( idx<11):
+    print(f"{number_m} x {idx} = {number_m*idx}")
+    idx+=1
+#PQS -8
+#write a program to print prime numbers given by the user 2 numbers?
+
+number_1 = int(input("enter your 1st num :"))
+
+
+for i in range(1,number_1):
+    if(i%2 == 0):
+        print("it is not prime")
+    else:
+        print("prime")
+
+# PQS-9
+# write a program to find factorial of n useing for loop?
+
+fact = int(input())
+
+product = 0
+for i in range(1,fact+1):
+    product += i
+print(f"factorial of {fact} is: {product}")
+
+# PQS-10
+"""
+write a program to print the pattern given below :
+    *
+   ***
+  *****
+ *******
+"""
+n = int(input())
+
+for i in range(1,n+1):
+    print(" "*(n-i), end="")
+    print("*"*(2*i-1), end="")
+    print("")
+
+# PQS-11
+"""write a program to print the pattern given below :
+  * * *
+  *   *
+  * * *      n=3
+"""
+for i in range(1,n+1):
+  if(i==1 or i==n):
+    print("*"*n, end="")
+  else:
+    print("*",end="")
+    print(" "*(n-2), end="")
+    print("*",end ="")
+  print("")
+
+   

@@ -51,3 +51,39 @@ f = open("example.txt", "rb")
 data = f.read()
 print(data)
 f.close()
+
+
+
+
+
+
+
+
+#chapter-9
+
+
+# #pqs-1
+# #write a program to check the content "hello" in the test file or not?
+st1 = "hello world i am hero"
+f1 = open("poem.txt","w")
+f1.write(st1)
+f1.close()
+
+
+f = open("poem.txt")
+exist = f.read()
+if("hello" in exist):
+    print("the hello word exests in the text file")
+else:
+    print("the hello word is not exests in the text file")
+f.close()
+
+# pqs-2
+# write a program to store high score in a text file and update it when user get higher score than the previous one?
+# the program write in @hiscore_file_game.py file
+# pass
+
+# pqs-3
+# the program write in @file_io_test.py file
+#pass
+
