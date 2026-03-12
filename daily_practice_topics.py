@@ -340,3 +340,14 @@ prsn2 = emp1()
 prsn2.age = 20 # instance variable
 print(prsn2.company,prsn2.name, prsn2.domine, prsn2.age)
 
+#self parameter :
+# self refers to the instance of the class. It is used to access the attributes and methods of the class in python. It is the first parameter of any method in a class and it is used to refer to the object itself.
+#ex -
+class emp2:
+    company  = "capgemini"
+    def info(self):
+        print(f"the company name is : {self.company}")
+
+prsn3 = emp2()
+prsn3.info()    
+print(prsn3.company)
