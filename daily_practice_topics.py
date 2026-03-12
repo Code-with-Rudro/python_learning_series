@@ -324,7 +324,7 @@ print(person.name,person.age,person.salary)
 # instance variable is a variable that is defined inside a method and belongs to the object. It is used to store data that is unique to each object. A class variable is a variable that is defined inside a class and belongs to the class. It is used to store data that is shared among all objects of the class.
 #in python we take first instance variable and then class variable.
 
-
+ 
 #ex :-
 
 class emp1:
