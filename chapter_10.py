@@ -143,13 +143,13 @@ class train:
     
     def booktc(self):
         print(f"the {self.tr_num} superFast  {self.tr_name} train ticket price {self.tr_price} : booked successfully , thank you for booking, enjoy your journy ")
-     
+        print("--------------------------------------------------------------------------------------------------------------------------------------------------")
     def getstatus(self):
         print(f"the train number{self.tr_num}, superFast express {self.tr_name} from {self.tr_from} to {self.tr_to} ticket price{self.tr_price}  w/l list is{self.tr_st}, thank you!")
-    
+        print("--------------------------------------------------------------------------------------------------------------------------------------------------") 
     def fare(self):
         print(f"the total price of ticket is : train number {self.tr_num}, superFast {self.tr_name}, ticket price{self.tr_price}, gst {self.tr_price - 1.8}, total {self.tr_price * 1.8}. thank you!")
-
+        print("--------------------------------------------------------------------------------------------------------------------------------------------------") 
 vandeBharat = train("vande bharat", 25495, 2500, "28 W/l", "vishakhapatnam", "hydrabad")
 vandeBharat.booktc()
 vandeBharat.getstatus()
