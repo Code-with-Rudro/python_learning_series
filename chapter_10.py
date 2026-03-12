@@ -44,3 +44,26 @@ class emp2:
 prsn3 = emp2()
 prsn3.info()    
 print(prsn3.company)
+
+
+#static method :
+# static methods are methods that belong to a class rather than an instance of the class. They are defined using the @staticmethod decorator and do not have access to the instance (self) or the class (cls). They are typically used for utility functions that do not require access to instance or class data.
+#ex -
+class emp3:
+    company = "tcs"
+    @staticmethod
+    def info1():
+        print("this is a static method")
+emp3.info1()
+print(emp3.company)
+
+#constructor :
+# a constructor is a special method that is called when an object is created. It is used to initialize the attributes of the object. In python, the constructor is defined using the __init__ method.
+#ex -
+class emp4:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+emp4_obj = emp4("rudra", 18)
+print(emp4_obj.name, emp4_obj.age)
+
