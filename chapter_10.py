@@ -98,3 +98,23 @@ print(person01.company,person01.name,person01.lang,person01.salary)
 person03= programmer("pramod", "java", 1300000)
 
 print(person03.company,person03.name,person03.lang,person03.salary)
+
+
+#pqs-2
+#create a class (calculator) and print the sum, square, cube of a number?
+
+class calculator:
+    def __init__(self, n):
+        self.n = n
+
+
+    def square(self):
+        print(f"the square is: {self.n*self.n}")
+    def qube(self):
+        print(f"the qube is: {self.n*self.n*self.n}")
+
+cl = calculator(5)
+cl.square() 
+cl.qube()
+
+
