@@ -375,6 +375,7 @@ During this learning phase, I practiced:
 These exercises improved my understanding of **state management and persistent data in Python programs**.
 
 ---
+# 🐍 Python Learning Journey – Day 14 to Day 15
 
 # 👨‍💻 About This Update
 
@@ -447,17 +448,17 @@ This marks the completion of my **Python fundamentals and intermediate-level con
 
 ---
 
-# 🚀 Future Learning Plan
+# 🚀 Next Learning Goals
 
-The next topics planned in this Python learning journey include:
+After completing Python fundamentals and intermediate concepts, the next focus areas will include:
 
-- Functions
-- Loops
-- Dictionaries
-- File Handling
-- Object-Oriented Programming (OOP)
-- APIs and Backend Development
-- Python for AI/ML
+- Advanced Python concepts
+- Data structures and algorithms in Python
+- Backend development
+- Python APIs
+- Python for AI and Machine Learning
+- Real-world Python projects
+
 
 ---
 
