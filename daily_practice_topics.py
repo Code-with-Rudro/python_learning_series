@@ -317,7 +317,7 @@ class emo:
     age = 18
     salary = 1800000
 
-person = emp()
+person = emo()
 print(person.name,person.age,person.salary)
 
 #instance variable and class variable :
