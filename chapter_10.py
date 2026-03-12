@@ -67,3 +67,34 @@ class emp4:
 emp4_obj = emp4("rudra", 18)
 print(emp4_obj.name, emp4_obj.age)
 
+
+
+
+
+
+
+#chapter-10
+#practice questions :
+# pqs-1
+#create a class (programmer) and pritn few proggramer working at microsoft?
+
+class programmer:
+    company = "Microsoft"
+    def __init__(self, name, lang, salary):
+        
+       self.name = name 
+       self.lang = lang
+       self.salary = salary
+
+person01 = programmer("rudra","python",1200000)
+
+print(person01.company,person01.name,person01.lang,person01.salary)
+
+person02 = programmer("kiran","python",2000000)
+print(person02.company,person02.name,person02.lang,person02.salary)
+
+print(person01.company,person01.name,person01.lang,person01.salary)
+
+person03= programmer("pramod", "java", 1300000)
+
+print(person03.company,person03.name,person03.lang,person03.salary)
