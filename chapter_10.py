@@ -118,3 +118,14 @@ cl.square()
 cl.qube()
 
 
+#pqs-3
+#add a static method in the above calculator class to greet the user?
+
+class satic:
+    @staticmethod
+    def prnt():
+        print("hello everyone!")
+
+p = satic()
+p.prnt()
+
