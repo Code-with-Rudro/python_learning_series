@@ -375,20 +375,90 @@ During this learning phase, I practiced:
 These exercises improved my understanding of **state management and persistent data in Python programs**.
 
 ---
+# 🐍 Python Learning Journey – Day 14 to Day 15
+
+# 👨‍💻 About This Update
+
+This update continues my Python learning journey.  
+During **Day 14 and Day 15**, I focused on understanding **Object-Oriented Programming (OOP) in Python**, which is a fundamental concept used to structure large and scalable software systems.
+
+These topics helped me understand how Python programs can be organized using **classes, objects, and reusable components**.
+
+With these concepts, I have now completed the **core Python basics and intermediate concepts** required before moving toward advanced development and real-world projects.
 
 ---
 
-# 🚀 Future Learning Plan
+# 📚 Day 14 – Object-Oriented Programming (Part 1)
 
-The next topics planned in this Python learning journey include:
+On Day 14, I learned the foundational concepts of **Object-Oriented Programming**.
 
-- Functions
-- Loops
-- Dictionaries
-- File Handling
-- Object-Oriented Programming (OOP)
-- APIs and Backend Development
-- Python for AI/ML
+This included understanding how Python uses **classes and objects** to represent real-world entities in code.
+
+Concepts explored during this phase included the creation of classes, object instantiation, the role of instance variables, and the use of the `self` keyword to reference object attributes.
+
+I also learned how constructors work in Python and how they help initialize object data when an object is created.
+
+Another concept explored was the use of **static methods**, which allow functions to exist within a class without requiring access to instance-specific data.
+
+Several practice problems were implemented to strengthen the understanding of these concepts.
+
+---
+
+# 📚 Day 15 – Object-Oriented Programming (Part 2)
+
+Day 15 focused on deeper OOP concepts and how classes can interact with each other through **inheritance**.
+
+Inheritance allows new classes to reuse properties and behavior from existing classes, improving code reusability and maintainability.
+
+Different inheritance models were explored, including **single inheritance, multiple inheritance, and multilevel inheritance**.
+
+Additional concepts covered included the use of **class methods**, which allow access to class-level data, and **property decorators**, which help manage attribute access in a controlled way.
+
+I also learned how **getter and setter methods** can be implemented to control how class attributes are read or modified.
+
+Another concept explored was **method overloading**, which helps implement flexible behavior in class methods.
+
+Practice exercises were solved to apply these concepts in real programming scenarios.
+
+---
+
+# 🧠 Learning Outcome
+
+By completing these topics, I gained a clear understanding of how **Object-Oriented Programming helps organize complex programs into structured and reusable components**.
+
+This marks the completion of my **Python fundamentals and intermediate-level concepts**, preparing me to move forward toward building real-world applications and AI/ML projects.
+
+---
+
+# 📊 Learning Progress
+
+| Day | Topic | Status |
+|----|------|------|
+| Day 7 | Python Basics | ✅ Completed |
+| Day 8 | Variables & Input | ✅ Completed |
+| Day 9 | Strings & Escape Sequences | ✅ Completed |
+| Day 10 | Lists & Tuples | ✅ Completed |
+| Day 11 | Loops & Control Statements | ✅ Completed |
+| Day 12 | Functions & Recursion | ✅ Completed |
+| Day 13 | File Handling & Mini Game | ✅ Completed |
+| Day 14 | OOP Concepts (Part 1) | ✅ Completed |
+| Day 15 | OOP Concepts (Part 2) | ✅ Completed |
+
+---
+
+---
+
+# 🚀 Next Learning Goals
+
+After completing Python fundamentals and intermediate concepts, the next focus areas will include:
+
+- Advanced Python concepts
+- Data structures and algorithms in Python
+- Backend development
+- Python APIs
+- Python for AI and Machine Learning
+- Real-world Python projects
+
 
 ---
 
