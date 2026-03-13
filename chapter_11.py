@@ -101,3 +101,45 @@ b.feature2()
 b.feature3()
 b.feature4()
 
+#class method and static method in inheritance:
+class A:
+    e = 10
+    ename = "rudra"
+   
+    def greet():
+        print("good morning")
+class B(A):
+    def feature3(self):
+        print("feature 3 is working")
+    def feature4(self):
+        print("feature 4 is working")
+    @classmethod
+#@classmethod:
+#1. it is a method which is bound to the class and not the object of the class.
+#2. it can access the class variables and class methods.
+
+
+    def show(cls):
+        print(cls.e)
+
+    @property
+#1. it is a decorator which is used to convert a method into a property.
+#2. it is used to access the method like an attribute.
+
+    def show1(self):
+        return self.ename
+    @show1.setter
+#setter is a decorator which is used to set the value of a property.
+# it is used to set the value of a property like an attribute.
+    def show1(self, name):
+        self.fename = name.split()[0]
+        self.lname = name.split()[1]
+
+
+        
+        
+b = B()
+b.e = 20
+b.ename = "kiran seera"
+print(b.ename)
+b.show()
