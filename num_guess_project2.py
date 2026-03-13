@@ -1,6 +1,5 @@
 # Number Guessing Game:
 # This is a simple number guessing game where the player has to guess a randomly generated number within a certain range. The game provides feedback on whether the player's guess is too low, too high, or correct. The player can choose the difficulty level, which determines the range of numbers and the number of attempts allowed.
-from itertools import count
 import random 
 
 n = random.randint(1,100)
