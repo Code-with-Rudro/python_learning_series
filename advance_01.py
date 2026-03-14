@@ -141,3 +141,20 @@ print(squares)
 even_numbers = [x for x in range(20) if x % 2 == 0]
 print(even_numbers)
 
+
+
+
+#chapter-12
+#practice questions:
+# pqs-1
+
+#write a code useing enumirate function to print table of n and stored in a table.txt file.
+
+n= int(input("enter your number for table: "))
+
+table1 = [n*i for i in range(1,11)]
+
+with open("table.txt", "a") as f1:
+    f1.write(f"the table of {n} is : {str(table1)}\n")
+
+print(f"the table of {n} is : {str(table1)}\n")
