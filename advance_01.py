@@ -59,15 +59,67 @@ print(merged_dict)
 
 
 # with statement: 
-# 
+#The with statement is used to wrap the execution of a block of code with methods defined by a context manager. This allows you to manage resources such as file handling, database connections, and locks in a more efficient and cleaner way. The with statement ensures that the resources are properly acquired and released, even if an error occurs within the block.
+
 
 #ex:
-with(
-    open("hiscore.txt") as f1,
-    open("io_test.txt") as f2
+try:
+
+    with(
+       open("hiscore.txt") as f1,
+       open("io_test.txt") as f2
 
 ):
-    hiscore = f1.read()
-    io_test = f2.read()
-print(hiscore)
-print(io_test)
+
+       hiscore = f1.read()
+       io_test = f2.read()
+    print(hiscore)
+    print(io_test)
+except FileNotFoundError:
+       print("not found")
+
+#exception handling:
+#Exception handling is a mechanism in Python to handle errors and exceptions that may occur during the execution of a program. It allows you to gracefully handle errors and prevent your program from crashing. The main components of exception handling in Python are try, except, else, and finally blocks.
+#ex:
+try:
+    num1 = int(input("Enter a number: "))
+    num2 = int(input("Enter another number: "))
+    result = num1 / num2
+except ZeroDivisionError:
+    print("Error: Cannot divide by zero.")
+except ValueError:
+    print("Error: Invalid input. Please enter a number.")
+else:
+    print(f"The result of {num1} divided by {num2} is {result}.")
+finally:
+    print("This block will always execute, regardless of whether an exception occurred or not.")
+
+#exception handling allows you to write more robust and error-resistant code by anticipating and managing potential errors that may arise during program execution.
+
+#except block can be used to catch specific exceptions and handle them accordingly, while the else block can be used to execute code that should only run if no exceptions were raised. The finally block is useful for cleaning up resources or performing actions that must occur regardless of whether an exception was raised or not.
+#else block is executed only if the try block does not raise an exception. It is used to specify code that should run when the try block succeeds without any errors. The else block is optional and can be omitted if not needed.
+#finally block is executed regardless of whether an exception was raised or not. It is typically used for cleanup actions, such as closing files or releasing resources, that must occur regardless of the outcome of the try block. The finally block is optional and can be omitted if not needed.
+
+
+#if __name__ == "__main__":
+#The if __name__ == "__main__": is a common idiom in Python that is used to check whether a script is being run directly or imported as a module. When a Python script is run, the special variable __name__ is set to "__main__". If the script is imported as a module, __name__ is set to the name of the module. By using this condition, you can ensure that certain code only runs when the script is executed directly, and not when it is imported as a module in another script. This is often used to include test code or to prevent certain code from running when the script is imported.
+#ex:
+
+def func():
+    print("hello my friends")
+    if __name__ == "__main__":
+        print("we arre running main dircty")
+        func()
+        print(__name__)
+print(__name__)
+
+#global keyword:
+#The global keyword in Python is used to declare that a variable inside a function is global, meaning it can be accessed and modified outside of the function. By default, variables defined inside a function are local to that function and cannot be accessed outside of it. However, by using the global keyword, you can indicate that a variable should be treated as a global variable, allowing you to read and modify its value from within the function.
+#ex:
+x = 10
+def modify_global():
+    global x
+    x += 5
+    print(f"Inside function, x = {x}")
+modify_global()
+print(f"Outside function, x = {x}")
