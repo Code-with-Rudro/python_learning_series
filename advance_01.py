@@ -31,6 +31,7 @@ print(numbers)
 
 #MATCH catch :
 # its involvs matching a variable against several cases using this "case " keyword.
+# match catch is a powerful tool for handling complex data structures and control flow in a more readable and maintainable way.
 
 def status(st):
     match st:
@@ -44,3 +45,29 @@ def status(st):
             return "none"
 
 print(status(100))
+
+
+
+#dictionary merging:
+#In python 3.9 and later, you can merge two dictionaries using the | operator. This allows you to combine the key-value pairs of two dictionaries into a single dictionary.
+# ex-
+dict1 = {"a": 1,"b":2}
+dict2 = {"c": 3,"d":4}
+merged_dict = dict1 | dict2
+print(merged_dict)
+
+
+
+# with statement: 
+# 
+
+#ex:
+with(
+    open("hiscore.txt") as f1,
+    open("io_test.txt") as f2
+
+):
+    hiscore = f1.read()
+    io_test = f2.read()
+print(hiscore)
+print(io_test)
