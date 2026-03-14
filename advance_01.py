@@ -123,3 +123,21 @@ def modify_global():
     print(f"Inside function, x = {x}")
 modify_global()
 print(f"Outside function, x = {x}")
+
+
+#enumerate function:
+#The enumerate function in Python is a built-in function that allows you to iterate over a sequence (such as a list, tuple, or string) while keeping track of the index of the current item. It returns an enumerate object that produces pairs of index and value for each item in the sequence. This can be useful when you need to access both the index and the value of items during iteration.
+#ex:
+fruits = ["apple", "banana", "cherry"]
+for index, fruit in enumerate(fruits):
+    print(f"Index: {index}, Fruit: {fruit}")
+
+
+#list comprehension:
+#List comprehension is a concise way to create lists in Python. It allows you to generate a new list by applying an expression to each item in an iterable, while optionally filtering items using a condition. The syntax for list comprehension is [expression for item in iterable if condition]. This can make your code more readable and efficient compared to using traditional loops for creating lists.
+#ex:
+squares = [x**2 for x in range(10)]
+print(squares)
+even_numbers = [x for x in range(20) if x % 2 == 0]
+print(even_numbers)
+
