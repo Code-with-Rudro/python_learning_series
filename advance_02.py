@@ -29,3 +29,27 @@ pip install -r requirements.txt  # to install the packages listed in the require
 """
 
 
+#lambda function:
+#lambda function is a small anonymous function that can take any number of arguments, but can only have one expression. it is often used for short, simple functions that are not worth defining with a full function definition.   
+
+#syntax:
+#lambda arguments: expression
+
+#ex -
+add = lambda x, y: x + y
+print(add(5, 3))  # Output: 8
+
+
+
+
+#join method:
+#join method is a string method that takes all items in an iterable and joins them into a single string. it is often used to concatenate a list of strings into a single string with a specified separator.
+#syntax:
+#separator.join(iterable)
+
+#ex -
+my_list = ['Hello', 'World', 'Python']
+result = '_'.join(my_list)
+print(result)  # Output: "Hello_World_Python"
+
+
