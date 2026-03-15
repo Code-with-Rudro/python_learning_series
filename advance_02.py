@@ -53,3 +53,33 @@ result = '_'.join(my_list)
 print(result)  # Output: "Hello_World_Python"
 
 
+#map, filter, reduce:
+
+# map:
+#map function applies a given function to all items in an iterable and returns a map object (which is an iterator). it is often used to apply a function to each item in a list or other iterable.
+#syntax:
+#map(function, iterable)
+#ex -
+numbers = [1, 2, 3, 4, 5]
+squared = map(lambda x: x**2, numbers)
+print(list(squared))  # Output: [1, 4, 9, 16, 25]
+
+#filter:
+#filter function constructs an iterator from elements of an iterable for which a function returns true. it is often used to filter items in a list or other iterable based on a condition.
+#syntax:    
+#filter(function, iterable)
+#ex -
+numbers = [1, 2, 3, 4, 5]
+even_numbers = filter(lambda x: x % 2 == 0, numbers)
+print(list(even_numbers))  # Output: [2, 4]
+
+#reduce:
+#reduce function applies a rolling computation to sequential pairs of values in an iterable. it is often used to perform a cumulative operation on a list or other iterable, such as summing all the items.
+#syntax:
+#reduce(function, iterable)
+#ex -
+from functools import reduce
+numbers = [1, 2, 3, 4, 5]
+product = reduce(lambda x, y: x * y, numbers)
+print(product)  # Output: 120
+
