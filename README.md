@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-Learning-blue?style=for-the-badge&logo=python)
 ![Progress](https://img.shields.io/badge/Progress-Day%207--17-success?style=for-the-badge)
 ![Level](https://img.shields.io/badge/Level-Beginner-orange?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-COMPLETED-green?style=for-the-badge)
 
 ---
 
