@@ -429,6 +429,80 @@ By completing these topics, I gained a clear understanding of how **Object-Orien
 This marks the completion of my **Python fundamentals and intermediate-level concepts**, preparing me to move forward toward building real-world applications and AI/ML projects.
 
 ---
+# 🐍 Python Learning Journey – Day 16 to Day 17
+
+# 👨‍💻 About This Update
+
+This update marks the **final stage of my Python Learning Series**.  
+On **Day 16 and Day 17**, I focused on several advanced Python concepts, functional programming tools, and environment management.
+
+With these topics completed, the **Python learning series from fundamentals to advanced concepts has been successfully completed**.
+
+This journey helped me build a strong foundation in Python programming and prepared me to move forward toward **real-world projects, backend development, and AI/ML applications**.
+
+---
+
+# 📚 Day 16 – Advanced Python Concepts
+
+Day 16 focused on several advanced features of Python that improve code readability, efficiency, and error handling.
+
+Concepts explored during this phase include:
+
+- Walrus Operator (`:=`)
+- Type definition and annotations
+- Pattern matching using `match` and `case`
+- Dictionary merging and updating
+- Context management using the `with` statement
+- Exception handling techniques
+- Raising custom exceptions
+- Using `try` with `else`
+- Using `try` with `finally`
+- Understanding `if __name__ == "__main__"` execution control
+- Using the `global` keyword
+- Iterating using the `enumerate()` function
+- List comprehensions for concise data processing
+
+These concepts improve Python code structure and help write more efficient programs.
+
+---
+
+# 📚 Day 17 – Functional Programming & Environment Management
+
+Day 17 focused on Python tools used in modern development workflows.
+
+Concepts covered include:
+
+- Creating and managing **Virtual Environments**
+- Dependency management using **freeze**
+- Using **venv** to isolate project environments
+- Lambda functions for concise anonymous functions
+- String joining using `join()`
+- Functional programming tools such as:
+  - `map()`
+  - `filter()`
+  - `reduce()`
+
+These concepts are widely used in real-world Python development for cleaner code and better project management.
+
+---
+
+# 🎯 Python Learning Series Completed
+
+With Day 17 completed, the **Python Learning Series has officially been completed**, covering:
+
+- Python fundamentals
+- Data structures
+- Control flow
+- Functions and recursion
+- File handling
+- Object-Oriented Programming
+- Advanced Python concepts
+- Functional programming tools
+- Environment management
+
+This journey provided a strong programming foundation and practical experience through exercises and mini-projects.
+
+---
 
 # 📊 Learning Progress
 
@@ -440,9 +514,11 @@ This marks the completion of my **Python fundamentals and intermediate-level con
 | Day 10 | Lists & Tuples | ✅ Completed |
 | Day 11 | Loops & Control Statements | ✅ Completed |
 | Day 12 | Functions & Recursion | ✅ Completed |
-| Day 13 | File Handling & Mini Game | ✅ Completed |
-| Day 14 | OOP Concepts (Part 1) | ✅ Completed |
-| Day 15 | OOP Concepts (Part 2) | ✅ Completed |
+| Day 13 | File Handling & Mini Project | ✅ Completed |
+| Day 14 | Object-Oriented Programming (Part 1) | ✅ Completed |
+| Day 15 | Object-Oriented Programming (Part 2) | ✅ Completed |
+| Day 16 | Advanced Python Concepts | ✅ Completed |
+| Day 17 | Virtual Environments & Functional Programming | ✅ Completed |
 
 ---
 
@@ -450,16 +526,15 @@ This marks the completion of my **Python fundamentals and intermediate-level con
 
 # 🚀 Next Learning Goals
 
-After completing Python fundamentals and intermediate concepts, the next focus areas will include:
+After completing the Python learning series, the next focus areas will include:
 
-- Advanced Python concepts
-- Data structures and algorithms in Python
-- Backend development
+- Data Structures and Algorithms
+- Backend Development
 - Python APIs
-- Python for AI and Machine Learning
+- AI and Machine Learning
 - Real-world Python projects
 
-
+---
 ---
 
 # 👨‍💻 Author
