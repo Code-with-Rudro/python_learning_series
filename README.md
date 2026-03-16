@@ -142,36 +142,6 @@ During this learning phase, several beginner-level programming tasks were practi
 These exercises helped strengthen the understanding of Python fundamentals.
 
 ---
-
-# 📊 Learning Progress Tracker
-
-| Day | Topic | Status |
-|----|------|------|
-| Day 7 | Python Basics | ✅ Completed |
-| Day 8 | Variables & Input | ✅ Completed |
-| Day 9 | Strings & Escape Sequences | ✅ Completed |
-| Day 10 | Lists & Tuples | ✅ Completed |
-
----
-
-# 📁 Project Structure
-
-```
-python-learning-series/
-│
-├── day7_basics.py
-├── day8_variables_input.py
-├── day9_strings.py
-├── day10_lists_tuples.py
-│
-├── practice_questions/
-│   ├── poem_program.py
-│   ├── average_program.py
-│   ├── student_marks_sort.py
-│   └── fruits_list_input.py
-│
-└── README.md
-```
 # 🐍 Python Learning Journey – Day 11 to Day 12
 
 # 👨‍💻 About This Update
