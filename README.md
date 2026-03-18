@@ -14,6 +14,45 @@ During this period, I focused on understanding the **fundamental concepts of Pyt
 
 The goal of this repository is to build a strong programming foundation that will help me in **AI/ML development and backend programming**.
 
+## 📂 Project Structure
+
+```
+Python-Learning/
+│
+├── chapter_1.py            # Python basics practice
+├── chapter_2.py            # Python basics practice
+├── chapter_3.py            # Python basics practice
+├── chapter_4.py            # Python basics practice
+├── chapter_5.py            # Python basics practice
+├── chapter_6.py            # Python basics practice
+├── chapter_7.py            # Python basics practice
+├── chapter_8.py            # Python basics practice
+├── chapter_9.py            # Python basics practice
+├── chapter_10.py           # Python practice questions
+│
+├── chapter_11.py           # Object-Oriented Programming
+│
+├── advance_01.py           # Advanced Python concepts
+├── advance_01_test.py      # Advanced practice tests
+├── advance_02.py           # Advanced Python chapter
+│
+├── daily_PQS.py            # Daily Python practice questions
+├── daily_practice_topics.py # Practice topic tracker
+│
+├── file_io_test.py         # File handling practice
+├── example.txt             # File handling example
+├── io_test.txt             # File input/output test
+├── poem.txt                # Text file example
+├── table.txt               # Table output example
+│
+├── hiscore.txt             # Game score storage file
+├── hiscore_file_game.py    # High score file handling project
+│
+├── RPS_project1.py         # Rock Paper Scissors game project
+├── num_guess_project2.py   # Number Guessing game project
+│
+└── README.md               # Project documentation
+```
 ---
 
 # 📚 Topics Covered
